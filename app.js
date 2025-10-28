@@ -2,7 +2,10 @@ const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
 const connectToDatabase = require("./models/db");
-const giftRoutes = require("./routes/giftRoutes"); // ✅ Correct import
+
+// Import routes
+const giftRoutes = require("./Routes/giftRoutes");
+const searchRoutes = require("./Routes/searchRoutes"); // ✅ Step 2 Task 1
 
 dotenv.config();
 const app = express();
@@ -11,12 +14,12 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// ✅ Attach giftRoutes
+// Routes
 app.use("/api/gifts", giftRoutes);
+app.use("/api/search", searchRoutes); // ✅ Step 2 Task 2
 
-// Start server and connect to MongoDB
+// Start server
 const PORT = process.env.PORT || 3060;
-
 app.listen(PORT, async () => {
   console.log(`🚀 Server running on port ${PORT}`);
   await connectToDatabase();
