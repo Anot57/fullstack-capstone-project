@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import urlConfig from "../data/urlConfig";
-import "../static/MainPage.css"; // optional, if you’ll style it
+import urlConfig from "../../data/urlConfig";
+import "../../static/MainPage.css";
+
 
 const MainPage = () => {
   const [gifts, setGifts] = useState([]);
