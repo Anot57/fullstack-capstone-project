@@ -5,7 +5,8 @@ const connectToDatabase = require("./models/db");
 
 // Import routes
 const giftRoutes = require("./Routes/giftRoutes");
-const searchRoutes = require("./Routes/searchRoutes"); // ✅ Step 2 Task 1
+const searchRoutes = require("./Routes/searchRoutes");
+const authRoutes = require("./Routes/authRoutes"); // ✅ Step 3 Task 1
 
 dotenv.config();
 const app = express();
@@ -16,7 +17,8 @@ app.use(express.json());
 
 // Routes
 app.use("/api/gifts", giftRoutes);
-app.use("/api/search", searchRoutes); // ✅ Step 2 Task 2
+app.use("/api/search", searchRoutes);
+app.use("/api/auth", authRoutes); // ✅ Step 3 Task 2
 
 // Start server
 const PORT = process.env.PORT || 3060;
