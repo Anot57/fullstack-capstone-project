@@ -1,23 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand bg-light px-4 shadow-sm">
       <div className="container-fluid d-flex align-items-center">
-        <a className="navbar-brand fw-bold me-4" href="/">
+        <Link className="navbar-brand fw-bold me-4" to="/">
           GiftLink 🎁
-        </a>
+        </Link>
 
         <ul className="navbar-nav d-flex flex-row">
           <li className="nav-item me-3">
-            <a className="nav-link fw-medium" href="/">
+            <Link className="nav-link fw-medium" to="/">
               Home
-            </a>
+            </Link>
+          </li>
+          <li className="nav-item me-3">
+            <Link className="nav-link fw-medium" to="/app">
+              Gifts
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link fw-medium" href="/app">
-              Gifts
-            </a>
+            <Link className="nav-link fw-medium" to="/app/search">
+              Search
+            </Link>
           </li>
         </ul>
       </div>
