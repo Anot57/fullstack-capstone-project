@@ -1,0 +1,6 @@
+Creating an optimized production build...
+Failed to compile.
+
+TypeError: Cannot read properties of null (reading 'tagName')
+
+
