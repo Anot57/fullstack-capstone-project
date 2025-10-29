@@ -1,36 +1,33 @@
 const express = require("express");
 const router = express.Router();
-const connectToDatabase = require("../models/db");
+const mongoose = require("mongoose");
 
-// Task 2: /api/gifts — fetch all gifts
+// Get all gifts
 router.get("/", async (req, res) => {
   try {
-    const db = await connectToDatabase();
-    const collection = db.collection("gifts");
-    const gifts = await collection.find({}).toArray();
+    const gifts = await mongoose.connection.db.collection("gifts").find({}).toArray();
     res.json(gifts);
-  } catch (err) {
-    console.error("Error fetching gifts:", err);
-    res.status(500).json({ error: "Failed to fetch gifts" });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Error fetching gifts" });
   }
 });
 
-// Task 3: /api/gifts/:id — fetch gift by ID
+// Get a specific gift by ID
 router.get("/:id", async (req, res) => {
   try {
-    const db = await connectToDatabase();
-    const collection = db.collection("gifts");
+    const { ObjectId } = require("mongodb");
     const id = req.params.id;
-    const gift = await collection.findOne({ id: id });
+    const gift = await mongoose.connection.db.collection("gifts").findOne({ _id: new ObjectId(id) });
 
     if (!gift) {
       return res.status(404).json({ message: "Gift not found" });
     }
 
     res.json(gift);
-  } catch (err) {
-    console.error("Error fetching gift by ID:", err);
-    res.status(500).json({ error: "Failed to fetch gift" });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Error fetching gift" });
   }
 });
 
