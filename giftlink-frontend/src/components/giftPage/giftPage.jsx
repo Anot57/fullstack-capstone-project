@@ -21,6 +21,7 @@ function GiftsPage() {
 
   return (
     <div className="gifts-container">
+        <p>Fetched data: {JSON.stringify(gifts)}</p>
       {gifts.length > 0 ? (
         <div className="gifts-grid">
           {gifts.map((gift) => (
