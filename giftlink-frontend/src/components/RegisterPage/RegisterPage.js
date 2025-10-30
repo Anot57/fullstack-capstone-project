@@ -1,14 +1,15 @@
 import React, { useState } from "react";
-import { urlConfig } from "../../config"; // ✅ Task 1 – import config
-import { useAppContext } from "../../context/AuthContext"; // ✅ Task 2 – import context
-import { useNavigate } from "react-router-dom"; // ✅ Task 3 – import navigate
+import urlConfig from '../../config';
+import { useAppContext } from "../../context/AuthContext"; 
+import { useNavigate } from "react-router-dom"; 
+
 
 const RegisterPage = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [showerr, setShowerr] = useState(""); // ✅ Task 4 – error state
+  const [showerr, setShowerr] = useState(""); 
 
   const navigate = useNavigate();
   const { setIsLoggedIn } = useAppContext();

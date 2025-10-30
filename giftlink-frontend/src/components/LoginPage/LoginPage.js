@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { urlConfig } from '../../config'; // ✅ Step 1 - Task 1
-import { useAppContext } from '../../context/AuthContext'; // ✅ Step 1 - Task 2
-import { useNavigate } from 'react-router-dom'; // ✅ Step 1 - Task 3
+import { useAppContext } from '../../context/AuthContext'; 
+import { useNavigate } from 'react-router-dom'; 
+import urlConfig from '../../config';
+
 import './LoginPage.css';
 
 function LoginPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [incorrect, setIncorrect] = useState(''); // ✅ Step 1 - Task 4
+  const [incorrect, setIncorrect] = useState(''); 
 
   const navigate = useNavigate();
   const bearerToken = sessionStorage.getItem('auth-token');
