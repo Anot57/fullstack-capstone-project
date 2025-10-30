@@ -47,7 +47,7 @@ export default function Navbar() {
                             <a className="nav-link" href="/home.html">Home</a> {/* Link to home.html */}
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/app">Gifts</Link> {/* Updated Link */}
+                            <Link className="nav-link" to="/app/gifts">Gifts</Link> {/* Updated Link */}
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/app/search">Search</Link>

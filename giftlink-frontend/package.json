@@ -2,8 +2,7 @@
   "name": "giftlink-frontend-temp",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://172.17.12.172:3060",
-
+  "proxy": "http://localhost:3060",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",

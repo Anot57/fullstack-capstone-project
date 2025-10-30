@@ -1,0 +1,47 @@
+.gifts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+  background-color: #f9f9f9;
+}
+
+.gift-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gift-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.gift-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.gift-details {
+  padding: 15px;
+}
+
+.gift-details h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.gift-details p {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.gift-details .category {
+  font-weight: bold;
+  color: #007bff;
+}

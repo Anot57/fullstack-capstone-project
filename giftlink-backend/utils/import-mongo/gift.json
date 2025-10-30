@@ -6,11 +6,8 @@
     "condition": "New",
     "posted_by": "26872",
     "zipcode": "94805",
-    "date_added": 1667520000,
-    "age_days": 400,
-    "age_years": 1.1,
-    "description": "A charming lamp that's been lighting up my reading nook. It casts a soft, inviting glow, perfect for those who love to curl up with a good book. It's seen some of my favorite chapters and is ready to illuminate yours!",
-    "image": "/images/lamp.jpeg"
+    "description": "A charming lamp that's been lighting up my reading nook. It casts a soft, inviting glow.",
+    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36"
   },
   {
     "id": "876",
@@ -19,11 +16,8 @@
     "condition": "Used",
     "posted_by": "19284",
     "zipcode": "94016",
-    "date_added": 1670020000,
-    "age_days": 320,
-    "age_years": 0.9,
-    "description": "A family board game set that’s brought joy to many game nights. All pieces are intact and ready for new players!",
-    "image": "/images/boardgame.jpeg"
+    "description": "A family board game set that’s brought joy to many game nights.",
+    "image": "https://images.unsplash.com/photo-1602080757839-2e8e7a0675b0"
   },
   {
     "id": "877",
@@ -32,11 +26,8 @@
     "condition": "New",
     "posted_by": "18375",
     "zipcode": "94110",
-    "date_added": 1667521000,
-    "age_days": 400,
-    "age_years": 1.1,
-    "description": "A compact coffee maker perfect for small kitchens. Never used, still in original packaging.",
-    "image": "/images/coffeemaker.jpeg"
+    "description": "A compact coffee maker perfect for small kitchens.",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e17d"
   },
   {
     "id": "878",
@@ -45,11 +36,8 @@
     "condition": "Used",
     "posted_by": "26544",
     "zipcode": "94536",
-    "date_added": 1671020000,
-    "age_days": 290,
-    "age_years": 0.8,
-    "description": "Comfortable ergonomic chair with adjustable height and tilt. Minor wear on the armrests but still in great shape.",
-    "image": "/images/chair.jpeg"
+    "description": "Comfortable ergonomic chair with adjustable height and tilt.",
+    "image": "https://images.unsplash.com/photo-1588854337115-1c7e3c2a57a2"
   },
   {
     "id": "879",
@@ -58,11 +46,8 @@
     "condition": "Used",
     "posted_by": "18592",
     "zipcode": "95014",
-    "date_added": 1675020000,
-    "age_days": 180,
-    "age_years": 0.5,
-    "description": "A beautiful acoustic guitar that’s helped me learn so many songs. Ready for someone new to strum and create.",
-    "image": "/images/guitar.jpeg"
+    "description": "A beautiful acoustic guitar ready for someone new to strum.",
+    "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947"
   },
   {
     "id": "880",
@@ -71,11 +56,8 @@
     "condition": "New",
     "posted_by": "26493",
     "zipcode": "94568",
-    "date_added": 1677020000,
-    "age_days": 120,
-    "age_years": 0.3,
-    "description": "Brand new yoga mat. Non-slip surface, eco-friendly material, and easy to clean.",
-    "image": "/images/yogamat.jpeg"
+    "description": "Brand new yoga mat with non-slip surface and eco-friendly material.",
+    "image": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1"
   },
   {
     "id": "881",
@@ -84,11 +66,8 @@
     "condition": "New",
     "posted_by": "27301",
     "zipcode": "94086",
-    "date_added": 1678020000,
-    "age_days": 90,
-    "age_years": 0.25,
-    "description": "High-quality non-stick cookware set. Perfect for anyone moving into a new home or upgrading their kitchen.",
-    "image": "/images/cookware.jpeg"
+    "description": "High-quality non-stick cookware set for new homes.",
+    "image": "https://images.unsplash.com/photo-1601050690597-1a7c34e1c237"
   },
   {
     "id": "882",
@@ -97,11 +76,8 @@
     "condition": "Used",
     "posted_by": "27420",
     "zipcode": "94103",
-    "date_added": 1669520000,
-    "age_days": 360,
-    "age_years": 1,
-    "description": "Gently used stroller, clean and in great condition. Easy to fold and lightweight for travel.",
-    "image": "/images/stroller.jpeg"
+    "description": "Gently used stroller, lightweight and easy to fold.",
+    "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811"
   },
   {
     "id": "883",
@@ -110,11 +86,8 @@
     "condition": "Used",
     "posted_by": "19983",
     "zipcode": "94538",
-    "date_added": 1674020000,
-    "age_days": 210,
-    "age_years": 0.6,
-    "description": "Sturdy 5-shelf wooden bookshelf. Some scratches but otherwise solid and reliable.",
-    "image": "/images/bookshelf.jpeg"
+    "description": "Sturdy 5-shelf wooden bookshelf with some scratches.",
+    "image": "https://images.unsplash.com/photo-1616627989256-7b9b64e91851"
   },
   {
     "id": "884",
@@ -123,11 +96,8 @@
     "condition": "Used",
     "posted_by": "20682",
     "zipcode": "94022",
-    "date_added": 1675520000,
-    "age_days": 160,
-    "age_years": 0.45,
-    "description": "8-inch Android tablet in excellent condition. Includes charger and protective case.",
-    "image": "/images/tablet.jpeg"
+    "description": "8-inch Android tablet in excellent condition.",
+    "image": "https://images.unsplash.com/photo-1611078489935-0cb964de46d4"
   },
   {
     "id": "885",
@@ -136,11 +106,8 @@
     "condition": "New",
     "posted_by": "29013",
     "zipcode": "94109",
-    "date_added": 1678520000,
-    "age_days": 70,
-    "age_years": 0.2,
-    "description": "Warm and stylish winter coat. Never worn, still with tags attached.",
-    "image": "/images/coat.jpeg"
+    "description": "Warm and stylish winter coat with tags attached.",
+    "image": "https://images.unsplash.com/photo-1576566588028-4147f3840d9a"
   },
   {
     "id": "886",
@@ -149,11 +116,8 @@
     "condition": "Used",
     "posted_by": "18324",
     "zipcode": "94040",
-    "date_added": 1677020000,
-    "age_days": 120,
-    "age_years": 0.3,
-    "description": "2-person camping tent used for a few trips. Easy setup and waterproof.",
-    "image": "/images/tent.jpeg"
+    "description": "2-person camping tent, waterproof and easy to setup.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
   },
   {
     "id": "887",
@@ -162,11 +126,8 @@
     "condition": "Used",
     "posted_by": "20743",
     "zipcode": "94025",
-    "date_added": 1676020000,
-    "age_days": 140,
-    "age_years": 0.38,
-    "description": "Hybrid city bike in good condition. Recently tuned up and ready to ride.",
-    "image": "/images/bicycle.jpeg"
+    "description": "Hybrid city bike in good condition.",
+    "image": "https://images.unsplash.com/photo-1508606572321-901ea443707f"
   },
   {
     "id": "888",
@@ -175,11 +136,8 @@
     "condition": "New",
     "posted_by": "20911",
     "zipcode": "95008",
-    "date_added": 1679020000,
-    "age_days": 55,
-    "age_years": 0.15,
-    "description": "Brand new cordless vacuum cleaner. Powerful suction, lightweight, and rechargeable.",
-    "image": "/images/vacuum.jpeg"
+    "description": "Cordless vacuum cleaner, powerful suction, rechargeable.",
+    "image": "https://images.unsplash.com/photo-1616627457938-bf25df4c2d6a"
   },
   {
     "id": "889",
@@ -188,11 +146,8 @@
     "condition": "Used",
     "posted_by": "21152",
     "zipcode": "94536",
-    "date_added": 1669520000,
-    "age_days": 360,
-    "age_years": 1,
-    "description": "Comfy 3-seater sofa with removable covers. Some minor fabric fading but very comfortable.",
-    "image": "/images/sofa.jpeg"
+    "description": "Comfy 3-seater sofa with removable covers.",
+    "image": "https://images.unsplash.com/photo-1616627457938-4a03d760e416"
   },
   {
     "id": "890",
@@ -201,10 +156,7 @@
     "condition": "Used",
     "posted_by": "21894",
     "zipcode": "94539",
-    "date_added": 1679520000,
-    "age_days": 40,
-    "age_years": 0.1,
-    "description": "Compact microwave oven in good condition. All functions work perfectly.",
-    "image": "/images/microwave.jpeg"
+    "description": "Compact microwave oven in great condition.",
+    "image": "https://images.unsplash.com/photo-1586201375754-1965a7e79e98"
   }
 ]
